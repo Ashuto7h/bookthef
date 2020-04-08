@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="2dp"
+    android:layout_height="match_parent">
+
+
+
+
+    <Button
+        android:id="@+id/class_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 1 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 2 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+
+        />
+    <Button
+        android:id="@+id/class_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 3 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 4 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 5 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 6 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 7 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 8 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 9 "
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 10"
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 11"
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+    <Button
+        android:id="@+id/class_12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey"
+        android:hint="Class 12"
+        android:textColorHint="@color/blue"
+        android:fontFamily="monospace"
+        android:textSize="27dp"
+        android:layout_marginBottom="4dp"
+        />
+
+
+</LinearLayout>

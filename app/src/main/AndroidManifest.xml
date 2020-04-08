@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookthef">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/ActionBarTheme">
+
+        <activity android:name=".SignIn"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            />
+
+        <activity android:name=".SignUp"
+            android:label="Sign Up"
+            
+            />
+        <activity android:name=".Detail"
+            android:label="Details"/>
+        <activity android:name=".Languages"
+            android:label="Languages"/>
+        <activity android:name=".ExamCentral"
+            android:label="Exam Central"/>
+        <activity android:name=".AgeChoice"
+            android:label="Children and Adults"/>
+        <activity android:name=".TextBooks"
+            android:label="Textbooks"/>
+        <activity android:name=".Authors"
+            android:label="Authors"/>
+        <activity android:name=".Series"
+            android:label="Series"/>
+        <activity android:name=".CartActivity"/>
+    </application>
+</manifest>

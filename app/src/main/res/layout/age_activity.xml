@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/age_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Children's And Young Adults"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="28sp" />
+    <ScrollView
+        android:layout_below="@id/age_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/upto2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/upto5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    />
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/upto8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/upto12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    />
+
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/upto16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/grey"
+                    />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

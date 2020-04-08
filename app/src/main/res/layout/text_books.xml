@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textbooks_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Text Books"
+        android:textSize="28sp" />
+    <ScrollView
+        android:layout_below="@id/textbooks_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout1"
+                >
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/schooltext_textbooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/schooltext_textbooks"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/engineering_textbooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/examcenterengineering"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout2"
+                >
+                <TextView
+                    android:id="@+id/schooltext_textbooks_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="School Text"
+                    android:gravity="center"
+                    android:textColorHint="@color/black"
+                    />
+                <TextView
+                    android:id="@+id/engineering_textbooks_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Engineering"
+                    android:gravity="center"
+                    android:textColorHint="@color/black"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout3"
+                android:layout_below="@+id/textbooks_layout2"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/science_maths_textbooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/scienceandmaths_textbooks"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/computer_science_textbooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/computerscience_textbooks"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout4"
+                >
+                <TextView
+                    android:id="@+id/science_maths_textbooks_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Science Math"
+                    android:gravity="center"
+                    android:textColorHint="@color/black"
+                    />
+                <TextView
+                    android:id="@+id/computer_science_textbooks_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Computer Science"
+                    android:gravity="center"
+                    android:textColorHint="@color/black"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout5"
+                android:layout_below="@id/textbooks_layout4"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:id="@+id/english_textbooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/englishlearning_textbooks"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:id="@+id/medical_textbooks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/medical"
+                    android:layout_margin="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout6"
+                >
+                <TextView
+                    android:id="@+id/english_textbooks_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="English"
+                    android:gravity="center"
+                    android:textColorHint="@color/black"
+                    />
+                <TextView
+                    android:id="@+id/medical_textbooks_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Medical"
+                    android:gravity="center"
+                    android:textColorHint="@color/black"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

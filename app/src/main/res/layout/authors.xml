@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textbooks_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Popular Authors"
+        android:textSize="28sp" />
+
+    <ScrollView
+        android:layout_below="@id/textbooks_textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout1"
+                >
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/author1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/chethanbhagatauthor"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/author2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/agathachristieauthors"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout3"
+                android:layout_below="@+id/textbooks_layout2"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/author3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/paulocoehloauthors"
+                    />
+                <ImageView
+                    android:layout_margin="10dp"
+                    android:id="@+id/author4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/jeffreyarcherauthors"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/textbooks_layout5"
+                android:layout_below="@id/textbooks_layout4"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:id="@+id/author5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/robinsharmaauthors"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:id="@+id/author6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@mipmap/danbrown"
+                    android:layout_margin="10dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
